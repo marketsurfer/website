@@ -1,0 +1,161 @@
+body {
+	background: ##e7e7e7;
+}
+
+header, 
+nav, 
+main, 
+footer{
+	margin: 0 auto 0 auto;
+	background: #ffffff;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	header, 
+	nav, 
+	main, 
+	footer{
+		width: 768px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	header, 
+	nav, 
+	main, 
+	footer{
+		width: 960px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	header, 
+	nav, 
+	main, 
+	footer{
+		width: 960px;
+	}
+}
+
+/*---------- Custom Styles ----------*/
+.wrapper{
+	background: #ffffff;
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+}
+
+.custom-header {
+	background: url(../img/header-bg.jpg) 0 -15px no-repeat transparent;
+	width: 960px;
+	height: 175px;
+	margin: 5px auto 0 auto;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px 4px 0 0; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+
+  /* useful if you don't want a bg color from leaking outside the border: */
+  background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
+}
+
+.sitemap-content {
+	width: auto;
+	margin: 0 0 0 20px;
+}
+
+/*----- socialmedia-bar -----*/
+.socialmedia-bar {
+	margin: 20px;
+}
+
+.socialmedia-bar li {
+	float: left;
+}
+	
+.socialmedia-bar li  a {
+	display: block;
+	overflow: hidden;
+	height: 22px;
+	width: 23px;
+	text-indent: -666em;
+	background: url(../img/sm-spritesheet.png);
+}
+.socialmedia-bar li  a.linkedin {
+	background-position: 0 0;
+}
+.socialmedia-bar li  a.facebook {
+	background-position: -26px 0;
+}
+.socialmedia-bar li  a.twitter {
+	background-position: -53px 0;
+}
+.socialmedia-bar li  a.youtube {
+	background-position: -81px 0;
+}
+.socialmedia-bar li  a.google-plus {
+	background-position: -108px 0;
+}
+.socialmedia-bar li  a.rss {
+	background-position: -135px 0;
+}
+.socialmedia-bar li  a.instagram {
+	background-position: -158px 0;
+}
+
+.socialmedia-bar li  a.linkedin:hover {
+	background-position: 0 -22px;
+}
+.socialmedia-bar li  a.facebook:hover {
+	background-position: -26px -22px;
+}
+
+.socialmedia-bar li  a.twitter:hover {
+	background-position: -53px -22px;
+}
+
+.socialmedia-bar li  a.youtube:hover {
+	background-position: -81px -22px;
+}
+.socialmedia-bar li  a.google-plus:hover {
+	background-position: -108px -22px;
+}
+
+.socialmedia-bar li  a.rss:hover {
+	background-position: -135px -22px;
+}
+
+.socialmedia-bar li  a.instagram:hover {
+	background-position: -158px -22px;
+}
+/*----- /socialmedia-bar -----*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.wrapper {
+		width: 768px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.wrapper {
+		width: 960px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.wrapper {
+		width: 960px;
+	}
+}
+
+
+/*---------- /Custom Styles ----------*/
